@@ -1,4 +1,4 @@
-# billing-system
+# Billing-system
 Restaurant Billing System using c programming language
 A Restaurant billing system created using the C programming language,I had designed a program that allows the restaurant staff to generate invoice, calculate 
 the total bill, apply any discounts or taxes, and generate a final receipt for the customer,check all invoices generated,search invoice 
