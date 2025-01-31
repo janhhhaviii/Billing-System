@@ -1,17 +1,41 @@
-# Billing-system
-Restaurant Billing System using c programming language
-A Restaurant billing system created using the C programming language,I had designed a program that allows the restaurant staff to generate invoice, calculate 
-the total bill, apply any discounts or taxes, and generate a final receipt for the customer,check all invoices generated,search invoice 
+# Restaurant Billing System in C
 
-Here's a basic outline of how the program could work:
-1. **Generate Invoice**:This program will will take input from user like name of customer,no of items orderd,price of each items , quantity of each item,name of item.
+## Overview
+A console-based application built in **C** to streamline restaurant billing. It enables invoice generation, bill calculation, tax/discount application, and receipt generation. Additional features include invoice search and history tracking.
 
-2. **Calculation**: The program will then calculate the subtotal by multiplying the quantity of each item by its price. It can also calculate any applicable taxes or discounts based on predetermined rules.
+## Features
+- **Invoice Generation**: User inputs customer details, item names, prices, and quantities.
+- **Billing Calculation**: Computes subtotal, applies taxes/discounts.
+- **Total Bill Computation**: Summarizes final amount.
+- **Receipt Generation**: Displays itemized order details with final payable amount.
+- **Invoice Management**: Stores and retrieves invoices via search and history options.
 
-3. **Total Bill**: After calculating all the costs, the program will sum up the subtotal, taxes, and discounts to get the total bill amount.
+## Technologies Used
+- **Language**: C
 
-4. **Receipt Generation**: Finally, the program can generate a receipt that includes the itemized list of orders, along with their prices, the subtotal, any taxes or discounts applied, and the final total amount to be paid by the customer.
+## Implementation
+- Uses **structures, arrays, loops, and file handling**.
+- **Conditional statements** apply tax and discount rules.
+- **Functions** ensure modularity.
 
-In C programming, I have had used variables to store item numbers,name, quantities, prices, and totals. Loops can help in iterating through the menu items and calculating the bill. Conditional statements can be used to apply discounts or taxes based on certain conditions.
+## Future Enhancements
+- Multi-table support.
+- GUI integration.
+- DBMS storage.
+- Inventory management.
 
-This system can be further enhanced by adding features like handling multiple tables, storing order history. The flexibility of C programming allows for the creation of a robust and efficient restaurant billing system.
+## Running the Program
+1. Install a **C compiler**.
+2. Compile using:
+   
+   gcc restaurant_billing.c -o restaurant_billing
+   
+4. Run:
+  
+   ./restaurant_billing
+  
+
+## Conclusion
+An efficient restaurant billing system that enhances operations with structured coding and robust calculations.
+
+
